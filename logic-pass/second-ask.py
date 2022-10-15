@@ -1,4 +1,3 @@
-
 def prime(start,end):
     for num in range (start,end+1):
     #start end is the range of given numbers
@@ -9,5 +8,6 @@ def prime(start,end):
                     break
             else:
                 print(num)
-        else:print('error -1')       
+        else: 
+            return print('error -1')       
 prime(0,5)
